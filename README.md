@@ -14,5 +14,5 @@ A quick and easy test goes like this:
 
     $ OPENSSL_ENGINES=.libs openssl engine -t -c emd5
 
-    $ echo whatever OPENSSL_ENGINES=.libs openssl openssl dgst -md5 -engine emd5
+    $ echo whatever | OPENSSL_ENGINES=.libs openssl dgst -md5 -engine emd5
 
